@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/laundry"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/footer"
+    android:layout_below="@id/header"
+    android:gravity="center" >
+<Button
+    android:id="@+id/bttn_washer"
+    android:layout_x="572dp"
+    android:layout_y="311dp"
+    android:layout_width="259dp"
+    android:layout_height="325dp"
+    android:text="washer"
+    android:onClick="changeCabinet"/>
+
+    <Button
+        android:layout_width="278dp"
+        android:layout_height="172dp"
+        android:text="hamper"
+        android:id="@+id/bttn_hamper"
+        android:layout_x="198dp"
+        android:layout_y="464dp" />
+
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="256dp"
+        android:text="cabinet1"
+        android:id="@+id/bttn_cabinet1"
+        android:layout_x="25dp"
+        android:layout_y="11dp" />
+
+    <Button
+        android:id="@+id/bttn_dryer"
+        android:layout_x="866dp"
+        android:layout_y="313dp"
+        android:layout_width="259dp"
+        android:layout_height="325dp"
+        android:text="dryer" />
+
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="256dp"
+        android:text="cabinet2"
+        android:id="@+id/bttn_cabinet2"
+        android:layout_x="224dp"
+        android:layout_y="11dp" />
+
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="256dp"
+        android:text="cabinet3"
+        android:id="@+id/bttn_cabinet3"
+        android:layout_x="429dp"
+        android:layout_y="11dp" />
+
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="256dp"
+        android:text="cabinet4"
+        android:id="@+id/bttn_cabinet4"
+        android:layout_x="634dp"
+        android:layout_y="11dp" />
+
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="256dp"
+        android:text="cabinet5"
+        android:id="@+id/bttn_cabinet5"
+        android:layout_x="840dp"
+        android:layout_y="11dp" />
+
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="256dp"
+        android:text="cabinet6"
+        android:id="@+id/bttn_cabinet6"
+        android:layout_x="1049dp"
+        android:layout_y="11dp" />
+
+</AbsoluteLayout>
