@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/introduction"
+        android:background="#66ccff">
+
+<!--two friends talking about bullshit-->
+    <ImageView
+        android:id="@+id/img_sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/sun"
+        android:paddingLeft="100dp"
+        android:paddingTop="45dp"
+        android:src="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/img_ground"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/ground"
+        android:src="@drawable/ground"
+        android:layout_x="0dp"
+        android:layout_y="470dp" />
+    <ImageView
+        android:id="@+id/img_body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/body"
+        android:src="@drawable/body"
+        android:layout_x="404dp"
+        android:layout_y="349dp" />
+    <ImageView
+        android:id="@+id/img_body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/body"
+        android:src="@drawable/body"
+        android:layout_x="748dp"
+        android:layout_y="343dp" />
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="The Head"
+        android:paddingLeft="0dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/head"
+        android:layout_x="740dp"
+        android:layout_y="236dp" />
+    <ImageView
+        android:id="@+id/img_head2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="The Head2"
+        android:paddingLeft="0dp"
+        android:paddingTop="500dp"
+        android:src="@drawable/head"
+        android:layout_x="414dp"
+        android:layout_y="-222dp" />
 
 </AbsoluteLayout>
+
+

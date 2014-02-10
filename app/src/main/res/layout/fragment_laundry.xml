@@ -1,85 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/footer"
+    android:layout_below="@id/header"
+    android:gravity="center" >
+<AbsoluteLayout
     android:id="@+id/laundry"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_above="@id/footer"
     android:layout_below="@id/header"
     android:gravity="center" >
-<Button
-    android:id="@+id/bttn_washer"
-    android:layout_x="572dp"
-    android:layout_y="311dp"
-    android:layout_width="259dp"
-    android:layout_height="325dp"
-    android:text="washer"
-    android:onClick="changeCabinet"/>
+    <com.mike77.app.utility.MyImageView
+        android:id="@+id/img_washer"
+        android:layout_x="572dp"
+        android:layout_y="311dp"
+        android:layout_width="259dp"
+        android:layout_height="325dp"
+        android:src="@drawable/base_image1"
+        android:text="washer"/>
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="278dp"
         android:layout_height="172dp"
+        android:src="@drawable/base_image1"
         android:text="hamper"
-        android:id="@+id/bttn_hamper"
+        android:id="@+id/img_hamper"
         android:layout_x="198dp"
         android:layout_y="464dp" />
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="203dp"
         android:layout_height="256dp"
+        android:src="@drawable/base_image1"
         android:text="cabinet1"
-        android:id="@+id/bttn_cabinet1"
-        android:layout_x="25dp"
-        android:layout_y="11dp" />
+        android:id="@+id/img_cabinet1"
+        android:layout_x="13dp"
+        android:layout_y="11dp"/>
 
-    <Button
-        android:id="@+id/bttn_dryer"
+    <com.mike77.app.utility.MyImageView
+        android:id="@+id/img_dryer"
         android:layout_x="866dp"
         android:layout_y="313dp"
+        android:src="@drawable/base_image1"
         android:layout_width="259dp"
         android:layout_height="325dp"
-        android:text="dryer" />
+        android:text="dryer"/>
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="203dp"
         android:layout_height="256dp"
+        android:src="@drawable/base_image1"
         android:text="cabinet2"
-        android:id="@+id/bttn_cabinet2"
-        android:layout_x="224dp"
+        android:id="@+id/img_cabinet2"
+        android:layout_x="223dp"
         android:layout_y="11dp" />
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="203dp"
         android:layout_height="256dp"
+        android:src="@drawable/base_image1"
         android:text="cabinet3"
-        android:id="@+id/bttn_cabinet3"
+        android:id="@+id/img_cabinet3"
         android:layout_x="429dp"
-        android:layout_y="11dp" />
+        android:layout_y="11dp"/>
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="203dp"
         android:layout_height="256dp"
+        android:src="@drawable/base_image1"
         android:text="cabinet4"
-        android:id="@+id/bttn_cabinet4"
+        android:id="@+id/img_cabinet4"
         android:layout_x="634dp"
         android:layout_y="11dp" />
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="203dp"
         android:layout_height="256dp"
+        android:src="@drawable/base_image1"
         android:text="cabinet5"
-        android:id="@+id/bttn_cabinet5"
+        android:id="@+id/img_cabinet5"
         android:layout_x="840dp"
-        android:layout_y="11dp" />
+        android:layout_y="11dp"/>
 
-    <Button
+    <com.mike77.app.utility.MyImageView
         android:layout_width="203dp"
         android:layout_height="256dp"
+        android:src="@drawable/base_image1"
         android:text="cabinet6"
-        android:id="@+id/bttn_cabinet6"
+        android:id="@+id/img_cabinet6"
         android:layout_x="1049dp"
         android:layout_y="11dp" />
 
+    <com.mike77.app.utility.MyImageView
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:id="@+id/img_cloths1"
+        android:src="@drawable/laundry_image"
+        android:layout_x="359dp"
+        android:layout_y="432dp" />
+
+    <com.mike77.app.utility.MyImageView
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:id="@+id/img_cloths2"
+        android:src="@drawable/laundry_image"
+        android:layout_x="303dp"
+        android:layout_y="393dp" />
+
+    <com.mike77.app.utility.MyImageView
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:id="@+id/img_cloths3"
+        android:src="@drawable/laundry_image"
+        android:layout_x="248dp"
+        android:layout_y="432dp" />
+
 </AbsoluteLayout>
+</RelativeLayout>

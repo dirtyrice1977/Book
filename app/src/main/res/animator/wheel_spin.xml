@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- In the opening set tag we specify an interpolator, in this case the accelerate decelarate
+interpolator so that the animation will speed up at the start and slow down at the end.
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:ordering="sequentially">
+    <objectAnimator
+        android:duration="3000"
+        android:propertyName="rotation"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueTo="180"
+        android:valueType="floatType" />
+
+</set>

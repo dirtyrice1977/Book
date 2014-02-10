@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/book_title"
+        android:textSize="@dimen/title_size"
+        android:id="@+id/textView"
+        android:layout_x="357dp"
+        android:layout_y="91dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mike"
+        android:textSize="@dimen/intro_font_size"
+        android:id="@+id/textView2"
+        android:layout_x="424dp"
+        android:layout_y="454dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/joe"
+        android:textSize="@dimen/intro_font_size"
+        android:id="@+id/textView3"
+        android:layout_x="471dp"
+        android:layout_y="383dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dima"
+        android:textSize="@dimen/intro_font_size"
+        android:id="@+id/textView4"
+        android:layout_x="476dp"
+        android:layout_y="522dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/by"
+        android:textSize="@dimen/intro_font_size"
+        android:id="@+id/textView5"
+        android:layout_x="602dp"
+        android:layout_y="296dp" />
+</AbsoluteLayout>
+
+
